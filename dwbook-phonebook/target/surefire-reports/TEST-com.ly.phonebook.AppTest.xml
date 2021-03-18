@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="1" name="com.ly.phonebook.AppTest" time="0.005" errors="0" skipped="0">
+  <properties>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.version" value="11.0.10+9"/>
+    <property name="user.name" value="huongly.phan"/>
+    <property name="java.compiler" value="j9jit29"/>
+    <property name="os.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="com.ibm.util.extralibs.properties" value=""/>
+    <property name="com.ibm.jcl.checkClassPath" value=""/>
+    <property name="user.language" value="en"/>
+    <property name="com.ibm.oti.vm.bootstrap.library.path" value="/Users/huongly.phan/Library/Java/JavaVirtualMachines/adopt-openj9-11.0.10/Contents/Home/lib/compressedrefs:/Users/huongly.phan/Library/Java/JavaVirtualMachines/adopt-openj9-11.0.10/Contents/Home/lib"/>
+    <property name="idea.version" value="2020.3.2"/>
+    <property name="sun.boot.library.path" value="/Users/huongly.phan/Library/Java/JavaVirtualMachines/adopt-openj9-11.0.10/Contents/Home/lib/compressedrefs:/Users/huongly.phan/Library/Java/JavaVirtualMachines/adopt-openj9-11.0.10/Contents/Home/lib"/>
+    <property name="classworlds.conf" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="jdk.extensions.version" value="11.0.10.0"/>
+    <property name="java.version" value="11.0.10"/>
+    <property name="user.timezone" value="Asia/Singapore"/>
+    <property name="com.ibm.system.agent.path" value="/Users/huongly.phan/Library/Java/JavaVirtualMachines/adopt-openj9-11.0.10/Contents/Home/lib"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="com.ibm.oti.vm.library.version" value="29"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/conf"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="user.country" value="US"/>
+    <property name="java.home" value="/Users/huongly.phan/Library/Java/JavaVirtualMachines/adopt-openj9-11.0.10/Contents/Home"/>
+    <property name="java.vm.info" value="JRE 11 Mac OS X amd64-64-Bit Compressed References 20210120_897 (JIT enabled, AOT enabled)
+OpenJ9   - 345e1b09e
+OMR      - 741e94ea8
+JCL      - 0a86953833 based on jdk-11.0.10+9"/>
+    <property name="os.version" value="10.15.7"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="openj9-0.24.0"/>
+    <property name="user.variant" value=""/>
+    <property name="maven.ext.class.path" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven-event-listener.jar"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="jdk.extensions.name" value="Extensions for OpenJDK for Eclipse OpenJ9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="ibm.signalhandling.sigint" value="true"/>
+    <property name="user.home" value="/Users/huongly.phan"/>
+    <property name="com.ibm.cpu.endian" value="little"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="ibm.signalhandling.sigchain" value="true"/>
+    <property name="java.library.path" value="/Users/huongly.phan/Library/Java/JavaVirtualMachines/adopt-openj9-11.0.10/Contents/Home/lib/compressedrefs:/Users/huongly.phan/Library/Java/JavaVirtualMachines/adopt-openj9-11.0.10/Contents/Home/lib:/usr/lib"/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
+    <property name="java.vm.vendor" value="Eclipse OpenJ9"/>
+    <property name="java.fullversion" value="11.0.10+9
+JRE 11 Mac OS X amd64-64-Bit Compressed References 20210120_897 (JIT enabled, AOT enabled)
+OpenJ9   - 345e1b09e
+OMR      - 741e94ea8
+JCL      - 0a86953833 based on jdk-11.0.10+9"/>
+    <property name="maven.home" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2020.3.2 install"/>
+    <property name="java.class.path" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds.license:/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.6.0.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.io.tmpdir" value="/var/folders/t0/9kc9mx810vl7h7xwlb96ssr00000gp/T/"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-support/issues"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/huongly.phan/Code/ly/dwbook-phonebook"/>
+    <property name="ibm.system.encoding" value="UTF-8"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="ibm.signalhandling.rs" value="false"/>
+    <property name="user.dir" value="/Users/huongly.phan/Code/ly/dwbook-phonebook"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="Eclipse OpenJ9 VM"/>
+    <property name="com.ibm.oti.shared.enabled" value="false"/>
+    <property name="com.ibm.vm.bitmode" value="64"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="com.ibm.oti.configuration" value="scar"/>
+    <property name="java.vendor.version" value="AdoptOpenJDK"/>
+  </properties>
+  <testcase classname="junit.framework.TestSuite$1" name="warning" time="0.005">
+    <failure message="No tests found in com.ly.phonebook.AppTest" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: No tests found in com.ly.phonebook.AppTest
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.TestSuite$1.runTest(TestSuite.java:263)
+	at junit.framework.TestCase.runBare(TestCase.java:127)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:118)
+	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+	at junit.framework.TestSuite.run(TestSuite.java:203)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.maven.surefire.junit.JUnitTestSet.execute(JUnitTestSet.java:95)
+	at org.apache.maven.surefire.junit.JUnit3Provider.executeTestSet(JUnit3Provider.java:121)
+	at org.apache.maven.surefire.junit.JUnit3Provider.invoke(JUnit3Provider.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+  </testcase>
+</testsuite>
