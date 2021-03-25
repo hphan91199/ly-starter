@@ -1,0 +1,29 @@
+CompletableFuture
+
+- Introduced in Java 8
+- With more feature than Future
+- cfs = CompletableFuture
+
+API:
+----------------------------------------------------------------------------------
+Start Link
+----------------------------------------------------------------------------------
+- supplyAsync(func)     - To run background task asynchronously and return something
+- runAsync(func)        - To run background task asynchronously and return nothing
+----------------------------------------------------------------------------------
+Chain Link
+----------------------------------------------------------------------------------
+- thenApply(func)  - HAS return  - HAS access to result of previous Completable it attached to
+- thenAccept(func) - NO return   - HAS access to result of previous Completable it attached to
+- thenRun(func)    - NO return   - NO access to result of previous Completable it attached to
+
+- thenCombine(cf, func)     - Go on function chains no nesting - independent from each other
+- thenCompose(cf, func)     - Go on function chain no nesting - dependent
+
+- allOf(cfs)           - all future must complete
+- anyOf(cfs)           - any future completed
+
+- exceptionally(func)   - exception only
+- handle(func)          - result & exception
+
+Exception : Once catch will not propagate
