@@ -1,0 +1,1 @@
+Run Command : java -jar $YOUR_PATH/target/ly-starter-dropwizard-1.0-SNAPSHOT.jar server
