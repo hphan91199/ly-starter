@@ -14,6 +14,8 @@ public class Basic {
     cFuture1.complete("Future Result");
     System.out.println("result = " + result1);
 
+
+
     /**
      * See the one above. get() block until Future complete.
      * Everything above run in a single thread so get will block forever.
