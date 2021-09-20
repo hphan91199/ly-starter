@@ -27,3 +27,10 @@ Chain Link
 - handle(func)          - result & exception
 
 Exception : Once catch will not propagate
+
+In case of nested (eg. thenRun()), if u want to throw exception out and catch together at
+exceptionally of outer layer, do .join()
+For example:
+future1.thenRun(()->future2).exceptionally() --> Exceptionally won't catch future 2 exception
+future1.thenRun(()->future2.join()).exceptionally() --> will wait for future2 to finish & catch +
+throw out exception to thenRun and catch at exceptionally
